@@ -7,12 +7,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Isak");
-            CountTo(11);
+            Console.WriteLine("Isak"); //prints name 
+            CountTo(11); // counts to 10 from 0 
         }
         static void CountTo(int num)
         {
-            for (int i = 0; i < num; i++)
+            for (int i = 0; i < num; i++) // loops through argument.
             {
                 Console.WriteLine(i);
             }
