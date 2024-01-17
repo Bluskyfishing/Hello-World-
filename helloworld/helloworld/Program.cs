@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.Metrics;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp
 {
     internal class Program
     {
